@@ -1,0 +1,236 @@
+.navbars .links{
+    color: black;
+    text-transform: capitalize;
+    font-size: 17px;
+    padding-top: 15px;
+    padding-bottom: 15px;
+}
+.navbars .brand{
+    font-size: 16px;
+}
+.background-section{
+    background-image: url(../public/image/xr14.jpeg);
+    background-size: cover;
+    border-bottom-left-radius: 90px;
+    border-bottom-right-radius: 90px;
+}
+.background-section .title{
+    font-size: 55px;
+    font-family: 'Times New Roman', Times, serif;
+}
+.service-section h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.service-section .service-img{
+    border-top-right-radius: 70px;
+    border-bottom-left-radius: 70px;
+}
+.service-section .service-text {
+    line-height: 30px;
+}
+.review-container{
+    background-color: rgb(245, 245, 245);
+    border-radius: 50px;
+}
+.review-container h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.review-container .image{
+    border-radius: 50%;
+}
+.review-container .card{
+    border-radius: 30px;
+}
+.review-container .card-img-text{
+    font-size: 18px;
+    font-weight: 700;
+}
+.review-container .review-text {
+    line-height: 26px;
+    font-size: 15px;
+}
+.design-section h4{
+    font-family: 'Times New Roman', Times, serif;
+}
+.design-section .design-img {
+    border-top-right-radius: 55px;
+}
+.design-section .design-imgs {
+    border-top-left-radius: 55px;
+}
+
+/* contact us */
+.message_container{
+    background-color: rgb(245, 245, 245);
+padding-top: 40px;
+padding-bottom: 80px;
+margin-top: 30px;
+}
+.message_container h4{
+    font-weight: 700;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+}
+.message_container p{
+    text-align: center;
+    line-height: 22px;
+    font-size: 15px;
+    margin-bottom: 30px;
+}
+.message_container input{
+    border: transparent;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.message_container .submit_button{
+    background-color:#272727;
+    border: transparent;
+    border-radius: 2px;
+    font-size: 14px;
+}
+.message_container .submit_button:hover{
+    background-color: #272727;
+    border-radius: 2px;
+}
+.message_container textarea{
+    border: transparent;
+    margin-bottom: 30px;
+    font-size: 14px;
+}
+
+/* footer */
+.footer_container{
+    background-color:#272727;
+  color: #fff;
+  padding-top: 60px;
+  padding-bottom: 20px;
+  }
+  .footer_container .text{
+    font-size: 16px;
+  }
+  .footer_container p{
+    font-size: 15px;
+  }
+  .footer_container .social-media{
+    width: 22px;
+    height: 22px;
+    margin-bottom: 5px;
+  }
+  .footer_container .social-medias{
+    width: 22px;
+    height: 22px;
+    margin-bottom: 5px;
+    color: rgb(248, 176, 42);
+  }
+  .footer_container input{
+    border-radius: 2px;
+  }
+  .footer_container button{
+    background-color: rgb(248, 176, 42);
+    color: #272727;
+    border: transparent;
+    border-radius: 2px;
+}
+.footer_container button:hover{
+    background-color: rgb(248, 176, 42);
+    border-radius: 2px;
+}
+
+@media (max-width: 1024px) {
+    .background-section{
+        background-image: url(../public/image/xr14.jpeg);
+        background-size: cover;
+        border-bottom-left-radius: 50px;
+        border-bottom-right-radius: 50px;
+    }
+    .background-section .title{
+        font-size: 40px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .cards-container .cards-text{
+        font-size: 14px;
+    }
+    .design-section .design-text{
+        font-size: 14px;
+    }
+    .footer_container p{
+        font-size: 14px;
+    }
+}
+@media (max-width: 568px) {
+    .navbars .links{
+        color: black;
+        text-transform: capitalize;
+        font-size: 13px;
+        padding-top: 15px;
+        padding-bottom: 15px;
+    }
+    .navbars .brand{
+        font-size: 14px;
+    }
+    .background-section{
+        background-image: url(../public/image/xr14.jpeg);
+        background-size: cover;
+        border-bottom-left-radius: 35px;
+        border-bottom-right-radius: 35px;
+    }
+    .background-section .title{
+        font-size: 27px;
+        font-family: 'Times New Roman', Times, serif;
+    }
+    .background-section p {
+        font-size: 14px;
+    }
+    .background-section .background-btn{
+        font-size: 13px;
+    }
+    .cards-container .title{
+        font-size: 16px;
+    }
+    .cards-container button{
+        font-size: 14px;
+    }
+    .cards-container .cards-text{
+        font-size: 14px;
+    }
+    .design-section .design-text{
+        font-size: 14px;
+    }
+    .service-section .service-text{
+        font-size: 14px;
+    }
+    .review-container .card-img-text{
+        font-size: 14px;
+        font-weight: 700;
+    }
+    .review-container .review-text {
+        line-height: 26px;
+        font-size: 13px;
+    }
+    .review-container h4{
+        font-size: 18px;
+    }
+    .message_container p{
+        text-align: center;
+        line-height: 22px;
+        font-size: 13px;
+        margin-bottom: 30px;
+    }
+    .message_container input{
+        border: transparent;
+        border-radius: 2px;
+        font-size: 12px;
+    }
+    .message_container textarea{
+        font-size: 12px;
+    }
+    .footer_container p{
+        font-size: 14px;
+    }
+    .footer_container h5{
+        font-size: 16px;
+    }
+    .footer_container h6{
+        font-size: 12px;
+    }
+}
