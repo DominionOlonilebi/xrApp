@@ -220,6 +220,10 @@ margin-top: 30px;
     .service-section button{
         font-size: 13px;
     }
+    .service-section .service-img{
+        border-top-right-radius: 40px;
+        border-bottom-left-radius: 40px;
+    }
     .review-container .card-img-text{
         font-size: 14px;
         font-weight: 700;
