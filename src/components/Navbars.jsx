@@ -4,7 +4,7 @@ import { FaWandSparkles } from "react-icons/fa6";
 
 const Navbars = () => {
   return (
-    <Navbar expand="lg bg-light py-2" >
+    <Navbar expand="lg bg-light py-3" >
       <Container  className="navbars ">
         <Navbar.Brand href="/" className="brand fw-bold "><FaWandSparkles className="text-warning"/> KWAMRA</Navbar.Brand>
         <Navbar.Toggle aria-controls="basic-navbar-nav" />

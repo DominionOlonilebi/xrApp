@@ -28,6 +28,9 @@
 .service-section .service-text {
     line-height: 30px;
 }
+.service-section button{
+    font-size: 14px;
+}
 .review-container{
     background-color: rgb(245, 245, 245);
     border-radius: 50px;
@@ -53,10 +56,10 @@
     font-family: 'Times New Roman', Times, serif;
 }
 .design-section .design-img {
-    border-top-right-radius: 55px;
+    border-top-right-radius: 50px;
 }
 .design-section .design-imgs {
-    border-top-left-radius: 55px;
+    border-top-left-radius: 50px;
 }
 
 /* contact us */
@@ -124,12 +127,17 @@ margin-top: 30px;
   }
   .footer_container input{
     border-radius: 2px;
+    font-size: 13px;
   }
+  .footer_container .text{
+    font-size: 14px;
+}
   .footer_container button{
     background-color: rgb(248, 176, 42);
     color: #272727;
     border: transparent;
     border-radius: 2px;
+    font-size: 14px;
 }
 .footer_container button:hover{
     background-color: rgb(248, 176, 42);
@@ -171,15 +179,16 @@ margin-top: 30px;
     .background-section{
         background-image: url(../public/image/xr14.jpeg);
         background-size: cover;
-        border-bottom-left-radius: 35px;
-        border-bottom-right-radius: 35px;
+        border-bottom-left-radius: 40px;
+        border-bottom-right-radius: 40px;
     }
     .background-section .title{
-        font-size: 27px;
+        font-size: 30px;
         font-family: 'Times New Roman', Times, serif;
     }
     .background-section p {
         font-size: 14px;
+        line-height: 24px;
     }
     .background-section .background-btn{
         font-size: 13px;
@@ -196,8 +205,20 @@ margin-top: 30px;
     .design-section .design-text{
         font-size: 14px;
     }
+    .design-section h6{
+        font-size: 13px;
+    }
+    .design-section .design-img {
+        border-top-right-radius: 35px;
+    }
+    .design-section .design-imgs {
+        border-top-left-radius: 35px;
+    }
     .service-section .service-text{
         font-size: 14px;
+    }
+    .service-section button{
+        font-size: 13px;
     }
     .review-container .card-img-text{
         font-size: 14px;
@@ -228,9 +249,12 @@ margin-top: 30px;
         font-size: 14px;
     }
     .footer_container h5{
-        font-size: 16px;
+        font-size: 15px;
     }
-    .footer_container h6{
+    .footer_container .text{
         font-size: 12px;
+    }
+    .footer_container button{
+        font-size: 13px;
     }
 }
